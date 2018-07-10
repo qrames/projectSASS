@@ -1,0 +1,17 @@
+
+@import "partial";
+body {
+    background-color: $bgColor;
+}
+header{
+    background-color: $bgColorHeader;
+    color: white;
+    a{
+        color: white;
+    }
+}
+
+aside, main, footer{
+    background-color: white;
+    color: $light;
+}

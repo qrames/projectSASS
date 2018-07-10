@@ -1,0 +1,18 @@
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #0d7ab8;
+  color: white;
+}
+header a {
+  color: white;
+}
+
+aside, main, footer {
+  background-color: white;
+  color: #5d5d5d;
+}
+
+/*# sourceMappingURL=style.css.map */
