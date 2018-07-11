@@ -1,17 +1,39 @@
-
 @import "partial";
+
 body {
     background-color: $bgColor;
 }
+
 header{
     background-color: $bgColorHeader;
     color: white;
+    line-height: 2em;
     a{
         color: white;
     }
+    img {
+        height: 1.3em;
+        vertical-align: text-bottom;
+    }
 }
-
 aside, main, footer{
     background-color: white;
     color: $light;
+}
+@mixin round($diameter){
+    width: $diameter;
+    height: $diameter;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+.round3{
+    @include round(130px);
+}
+.round2{
+    @include round(100px);
+}
+
+.round1{
+    @include round(40px);
 }

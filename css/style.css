@@ -5,14 +5,40 @@ body {
 header {
   background-color: #0d7ab8;
   color: white;
+  line-height: 2em;
 }
 header a {
   color: white;
+}
+header img {
+  height: 1.3em;
+  vertical-align: text-bottom;
 }
 
 aside, main, footer {
   background-color: white;
   color: #5d5d5d;
+}
+
+.round3 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.round2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.round1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px white solid;
 }
 
 /*# sourceMappingURL=style.css.map */
