@@ -37,3 +37,25 @@ aside, main, footer{
 .round1{
     @include round(40px);
 }
+
+.maxScreen{
+    max-width: 1024px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+#user{
+    position: relative;
+
+        .round3{
+            margin: auto;
+        }
+        .nature{
+            position: absolute;
+        }
+
+
+}

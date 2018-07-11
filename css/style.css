@@ -41,4 +41,22 @@ aside, main, footer {
   border: 2px white solid;
 }
 
+.maxScreen {
+  max-width: 1024px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+#user {
+  position: relative;
+}
+#user .round3 {
+  margin: auto;
+  top: 25%;
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */
