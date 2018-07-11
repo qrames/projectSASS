@@ -3,11 +3,24 @@
 body {
     background-color: $bgColor;
 }
-
+ul{
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+i{
+    width: 2rem;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
 header{
     background-color: $bgColorHeader;
     color: white;
     line-height: 2em;
+    margin-bottom: 2rem;
     a{
         color: white;
     }
@@ -17,8 +30,14 @@ header{
     }
 }
 aside, main, footer{
+    padding: 0.5rem;
     background-color: white;
     color: $light;
+    border-radius: 3px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(#8c8c8c, 0.8);
 }
 @mixin round($diameter){
     width: $diameter;
@@ -31,15 +50,18 @@ aside, main, footer{
     @include round(130px);
 }
 .round2{
-    @include round(100px);
+    @include round(80px);
 }
 
 .round1{
+    @include round(60px);
+}
+.round05{
     @include round(40px);
 }
 
 .maxScreen{
-    max-width: 1024px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -50,12 +72,9 @@ img{
 #user{
     position: relative;
 
-        .round3{
-            margin: auto;
-        }
-        .nature{
-            position: absolute;
-        }
+    .round3{
+
+    }
 
 
 }

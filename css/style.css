@@ -1,11 +1,29 @@
 body {
-  background-color: #fff;
+  background-color: #eee;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  width: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 header {
   background-color: #0d7ab8;
   color: white;
   line-height: 2em;
+  margin-bottom: 2rem;
 }
 header a {
   color: white;
@@ -16,8 +34,14 @@ header img {
 }
 
 aside, main, footer {
+  padding: 0.5rem;
   background-color: white;
   color: #5d5d5d;
+  border-radius: 3px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(140, 140, 140, 0.8);
 }
 
 .round3 {
@@ -28,13 +52,20 @@ aside, main, footer {
 }
 
 .round2 {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: 2px white solid;
 }
 
 .round1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.round05 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -42,7 +73,7 @@ aside, main, footer {
 }
 
 .maxScreen {
-  max-width: 1024px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -52,11 +83,6 @@ img {
 
 #user {
   position: relative;
-}
-#user .round3 {
-  margin: auto;
-  top: 25%;
-  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
